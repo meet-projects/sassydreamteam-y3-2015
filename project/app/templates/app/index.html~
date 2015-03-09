@@ -4,6 +4,6 @@
 
 {% block body %}
 <div class="greenBOX">
-	<h1></h1>
+	<h1>Welcome to our website!</h1>
 </div>
 {% endblock %}

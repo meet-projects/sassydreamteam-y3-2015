@@ -6,6 +6,6 @@
 <div class="greenBOX">
 	<h1>Welcome to Arts for Peace</h1>
 	<img src="falafel.jpg" alt="Falafel" style="width:304px;height:228px">
-	<img src="hamantashen_israel.jpg" alt="Hamantashen" style="width:304px;height:228px">
+	<img src="hamantashen_israel.jpg" alt=Hamantashen" style="width:304px;height:228px">
 </div>
 {% endblock %}

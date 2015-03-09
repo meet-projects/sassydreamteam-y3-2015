@@ -9,7 +9,7 @@
 </head>
 <body>
 	<div id="navbar">
-		<h1>Arts for Peace</h1>
+		<h1>This is the base.html</h1>
 	</div>
 	{% block body %}
 	{% endblock %}
