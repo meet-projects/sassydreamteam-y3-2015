@@ -5,7 +5,11 @@
 {% block body %}
 <div class="greenBOX">
 	<h1>Welcome to Arts for Peace</h1>
-	<img src="../../static/app/imgs/falafel.jpg" alt="Falafel" style="width:608px;height:456px; float:right; width:608px;height:456px">
-	<img src="../../static/app/imgs/hamantashen_israel.jpg" alt="hamantashen_israel" style="width:608px;height:456px;">
+	<img src="{{STATIC_URL}}app/imgs/falafel.jpg" alt="Falafel" style="width:608px;height:456px; float:right; width:608px;height:456px">
+	<img src="{{STATIC_URL}}app/imgs/hamantashen_israel.jpg" alt="hamantashen_israel" style="height:456px;">
+</div>
+<div class="greenBOX">
+	<img src="{{STATIC_URL}}app/imgs/tichel.jpg" alt="Tichel" style="width:608px;height:456px; float:right; width:608px;height:400px">
+        <img src="{{STATIC_URL}}app/imgs/palestinian_clothes.jpg" alt="Palestinian clothes" style="width:608px; height:456px">
 </div>
 {% endblock %}
