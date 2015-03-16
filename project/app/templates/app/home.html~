@@ -5,7 +5,7 @@
 {% block body %}
 <div class="greenBOX">
 	<h1>Welcome to Arts for Peace</h1>
-	<img src="../../static/app/imgs/falafel.jpg" alt="Falafel" style="width:608px;height:456px; float:right; width:608px;height:456px">
-	<img src="../../static/app/imgs/hamantashen_israel.jpg" alt="hamantashen_israel" style="width:608px;height:456px;">
+	<img src= "../../static/app/imgs/hamantashen_israel.jpg" alt="Falafel" style="width:608px;height:456px; float:right; width:608px;height:456px">
+	<img src="../../static/app/imgs/falafel.jpg"alt="hamantashen_israel" style="width:608px;height:456px;">
 </div>
 {% endblock %}
