@@ -1,0 +1,27 @@
+{% extends "app/base.html" %}
+
+{%block title %} profilepage {% endblock %}
+
+{% block body %}
+<div class="greenBOX">
+
+<div id="firstdiv">
+	<img src="{{STATIC_URL}}app/imgs/artistsface.jpg" alt="profile" style="width:300px;height:350px;"/>
+<h1> Barak Obamba </h1>
+<h2> Honolulu, Hawai </h2>
+
+I am .................................................
+
+</div>
+
+<div id="seconddiv">
+      <img src="{{STATIC_URL}}app/imgs/2014-04-04_533ed2b706d29_Dove_Contest-700x260.jpg" style="width:180px;height:135px;"/>
+      <img src="{{STATIC_URL}}app/imgs/amazing-art-artist-beautiful-Favim.com-1950592.jpg" style="width:180px;height:135px;"/>
+      <img src="{{STATIC_URL}}app/imgs/Baby-Boy-Names-That-Mean-Light.jpg" style="width:180px;height:135px;"/>
+      <img src="{{STATIC_URL}}app/imgs/Nelson Mandela - drawing by Ben Heine.jpg" style="width:180px;height:135px;"/>
+      <img src="{{STATIC_URL}}app/imgs/il_570xN.296476220.jpg" style="width:180px;height:135px;"/>
+</div>
+
+</div>
+
+{% endblock %}

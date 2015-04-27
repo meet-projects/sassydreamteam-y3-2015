@@ -17,3 +17,9 @@ h1{
 #pinky {
 	color: rgba(12,13,31,7);
 }
+#firstdiv {
+	     float:left;
+}
+#seconddiv {
+	     float:right;
+}
