@@ -9,7 +9,7 @@
 
 <form enctype="multipart/form-data" action="sassyteam.php" method="POST">
 <input type="hidden" name="MAX_FILE_SIZE" value="100000" />
-<font face="Comic sans MS" color="grey" size="5"> Update your file here! </font> <input name="uploadedfile" type="file" /><br />
+<font face="Comic sans MS" color="grey" size="5"> Upload your file here! </font> <input name="uploadedfile" type="file" /><br />
 <input type="submit" value="Upload File" />
 </form>
 
